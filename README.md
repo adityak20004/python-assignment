@@ -48,6 +48,18 @@ def convert_to_inches(feet, inches):
     total_inches = feet * 12 +inches
     current_time = datetime.now()
     print(f"At time {current_time}, the total height is {total_inches} inches.")
+    The output
+    Current Time: 2025-06-29 21:52:58.780348
+Add 1 day: 2025-06-30 21:52:58.780348
+Minus 60 seconds: 2025-06-29 21:51:58.780348
+Add 2 years: 2027-06-29 21:52:58.780348
+Timedelta: 100 days, 10:13:00
+Days: 100
+Seconds: 36780
+Microseconds: 0
+At time 2025-06-29 21:52:58.780348, the total height is 68 inches.
+At time 2025-06-29 21:52:58.780348, the total height is 72 inches.
+At time 2025-06-29 21:52:58.780348, the total height is 59 inches
     return total_inches
 
 # Example usage
